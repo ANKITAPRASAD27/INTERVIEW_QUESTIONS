@@ -1,0 +1,156 @@
+1.what is css?
+ans: css stands for casecading style sheet. it is a popular styling which is used with html to design website.it can also be used with any xml documents including plain xml ,svg,xul.
+
+2.what is the origin of css?
+ans:SGML (STANDARD GENERALIZED MARKUP LANGUAGE) is the origin of css.it is a language that defines markup languages.
+
+3.what are the different variations of css?
+ans:    CSS1
+        CSS2
+        CSS2.1
+        CSS3
+        CSS4
+
+4.what are the Box Model?
+ans:
+there are 4components:
+-> CONETENT: actual content of the box where the text or image is placed.
+->PADDING: area surrounding the content (space between the border and content).
+->BORDER: area surrounding the padding.
+->Margin: area surrounding the border.
+
+5.Name of some CSS FREAMWORK?
+ans:  Bootstrap etc...
+
+6.advantages of css?
+
+7.what do you understand by the universal seletor?
+ans: * is universal seletor.
+A universal seletor is a seletor that matches any element type's instead of selecting elements of a particular type.
+means sub elements ka color or etc.. change ho jayegae.
+
+8.how to include css in the webpage?
+ans: three method
+1.INLINE, 2.EXTERNAL, 3.INTERNAL
+
+9.what is embedded style sheet?
+ans:
+
+10.what is a css seletor?
+ans:it is a string that identifies the elements to which a particular declaration apply .it is also referred as a link between the html document and the style sheet.
+there are several different types of seletor in css:
+    ->CSS ELEMENTS/TAG SELECTOR
+    ->CSS ID SELECTOR
+    ->CSS CLASS SELECTOR
+    ->CSS universal SELECTOR
+    ->CSS GROUP SELECTOR
+    ->CSS PSEUDO CLASS SELECTOR
+    ->CSS CHILD SELECTOR
+    ->CSS DESCENDENT SELECTOR
+    ->CSS ADJACENT SELECTOR
+    ->CSS GENERAL SELECTOR
+
+11.Name some css style components?
+ans: some css style components are:
+        SELECTOR
+        property
+        value
+
+12.what is css opacity?
+ans:the css opacity property is used to spacify the transparency of an element.
+Example :
+        <style>
+        img.trans{
+            opacity:0.4;
+            filter: alpha(opacity=40);//for IE8 AND earlier
+        }
+        </style>
+      
+13.what is VH/VW(viewport height/viewport width)in css?
+ans:It's a CSS unit used to measure the height and width in percentage with respect to the viewport.it is used mainly in responsive design techniques.
+the measure VH is equal to 1/100 of the height of the viewport.if the height of the browser is 1000px, 1vh is equal to 10px.similarly,if the width is 1000px, then 1vw is equal to 10px.
+
+14.what is different between inline , inline-block and block?
+ans:
+        1.BLOCK ELEMENT-> the block element always start on new line.they will also take space for an entire row or width. list of block elements are <div>,<p> so on.....
+
+        2.INLINE ELEMENT->the inline elements don't start on a new line,they appear on the same line as the content and tags beside them.some examples of inline elements are <a>,<span>,<strong> and <img> so on...
+
+        3.INLINE-BLOCK->inline-block elements are similar to inline elements,except they can have padding and margin and set height and width values.
+
+15.how do you specify units in the css? what are the different way to do it?
+ans:
+
+16.Name the property used to spacify the background color of an element?
+ans: background-color:red;
+
+17.Name the property for controlling the image position in the background?
+ans:the background-position property is used to define the initial position of the background image.By default, the background image is placed on the top-left of the webpage.
+you can set the following position:
+        center
+        top
+        bottom
+        left
+        right
+
+18.Name the property for controlling the image scroll in the background?
+ans:the background-attachment property is used to spacify if the background fixed or scroll with the rest of the page in the browser window.if you set fixed the background image ,then the image not move during scrolling in the browser.let's take an example with the fixed background image.
+            
+            background:white url('bbb.gif);
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+
+19.what is meant by RGB stream?
+ans:
+
+20.what is different between a class and id?
+ans:
+        Class->class is a way of using HTML elements for styling.they are not unique and have multiple elements.
+        Id->id is unique and it can be assigned to a single element.
+
+21.how can you target h3 and h2 with the same styling?
+ans: multiple elements can be targeted by separating with a comma.
+h2,h3{
+    color:red;
+}
+
+22.Name media types allowed by css?
+ans:        speech
+            audio
+            visual
+            tactile media
+            continuous or paged media
+            grip media or bitmap
+            interactive media
+
+23.Name some font-related css attributes?
+ans: the font-related attributes are font-style,variant,weight,family,size etc.
+
+24.explain responsive web design?
+ans:
+
+25.how is the border-box different the content box?
+ans:
+
+26.different box sizing property?
+ans: content-box,padding-box and border-box.
+
+27.how to center align a div inside another div?
+ans: a div inside another div a is 
+
+28.what is grid system?
+ans: css grid system is type of powerful layout 2d (2 dimensional) systems with respect to columns and rows.
+
+29.what are the different ways to hide the elements using css?
+ans:
+    display: none;
+    visibility:hidden;
+    position:absolute;
+
+30.different between css grid and flexbox?
+ans: css grid layout is 2-dimensional system along with rows and columns.it is used for large-size layouts.
+flexbox is a grid layout with a 1-dimensional system either within a row or a columns.it is used for the components of an application.
+
+31.how does calc work?
+ans:
+
