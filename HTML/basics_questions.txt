@@ -1,0 +1,148 @@
+1.what is html?
+ans: 1.html stands for Hypertext Markup Language.
+2.it is the standard text formatting language used for creating and displaying pages on the internet.
+3.Markup Language for creating webpage/document.
+
+2.what are html tags?
+ans:<httml>
+    <img>
+    <head>
+    <table>
+
+3.what are html attributes?
+ans: some extra information
+example:<img src="">
+
+4.what is a marquee in html?
+ans: for scolling the text on the webpage, marquee is used 
+it scrolls the images or text up , down, left or right automatically
+to apply for a marquee,you have to use <marquee> tags
+
+5.how do you separate a section of texts in html?
+ans:<Br>tag- it is used to separate the line of text.
+    <p>tag- this is used to write a paragraph of text.
+    <blockquote>tage- this tag is used to define large quoted sections.
+
+6.define the list types in html?
+ans:1.order list:- the ordered list uses <ol> tag and displays element in a numbered format.
+EXAMPLE:-<ol></ol>
+2.unorder list:- the unorder list uses <ul> tag and displays elements in a bulleted format.
+EXAMPLE:-<ul></ul>
+3.definition list:-the definition list uses <dl>,<dt>,<dd> tags and displays elements in definition form like in a dictionary.
+EXAMPLE:-<dl></dl><dt></dt><dd></dd>
+<dl>
+    <dt>
+        <dd>
+            hi
+        </dd>
+    </dt>
+</dl>
+
+7.how do you align list elements in  an html file?
+ans:
+
+8.different between order list and unorder list?
+ans:
+
+9.how do you display a table in an html webpages?
+ans: <table>
+    <thead>
+        <tr>
+            <th>name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ankita</td>
+        </tr>
+    </tbody>
+</table>
+<caption></caption>
+<colgroup></colgroup>
+<tfooter></tfooter>
+
+10.how would you display the given table on an html webpages?
+ans: <table>
+    <tr>
+        <td>5 pcs</td>
+        <td>10</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>1 pcs</td>
+        <td>50</td>
+        <td>5</td>
+    </tr>
+</table>
+
+11.how do we insert a comment in html?
+ans: <!--comment -->
+
+12.how do you insert a copyright symbol in html ?
+ans: &copy; or &#169.&-emm-parcentage
+
+13.what is white space in html?
+ans:
+
+14.how do you create links to different sections within the same html web page?
+ans:<a></a>(anchor tag)
+
+15.how do you create a Hyperlink in html?
+ans: <a href=""></a>(anchor tag)
+images 
+
+16.define an image map in html?
+ans:
+
+18.why do we use a style sheet in html?
+ans:
+
+19.what is semantic html?
+ans: semantic means some meaning / meaning of content
+EXAMPLE:- <p></p>
+<h1></h1>....<h6></h6>
+<b></b>
+<i></i>, <strong></strong> so on etc...
+
+20.what is svg in html?
+ans:
+
+21.how do you create nasted web pages in html?
+ans: using <iframe src="" frameborder="0"></iframe>
+
+22.how do you add button tag in html?
+ans:<button>click me</button>
+
+23.what are different types of heading in html?
+ans:<h1></h1>......<h6></h6>
+
+24.how do you insert an image in the html webpages?
+ans:<img src="">
+
+25.what is alt attribute in html?
+ans: alt attribute is used for displaying a text in place of an image whenever the image can not be loaded due to any technical issue.
+
+26.different between div and span?
+ans: div= div takes full width.
+span= span takes only content space.
+
+27.different between elements and tags?
+ans:
+
+28.what is attributes?
+ans:
+
+29.what is form tag and how works?
+ans:
+
+30.what is meta tags?
+ans:
+
+31.what is <!DOCTYPE> in html?
+ans:
+
+32.different between <canvas></canvas> and <svg></svg>?
+ans:
+
+33.what  are html templetes?
+ans:
